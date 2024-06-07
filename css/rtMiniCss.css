@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Permanent+Marker&family=Play:wght@400;700&display=swap');
+
+body {
+    font-family: "Play", sans-serif;
+    color: black;
+    margin: auto;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: 1px outset #FEFFF7;
+}
+
+body.white_theme {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(66,66,66,1) 100%);
+}
+
+#menu_button {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    text-decoration: none;
+    color: inherit;
+}
+
+#tag_content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    margin-top: 3%;
+}
+
+#descriptionSpan {
+    color: aliceblue;
+}
+
+#news_content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    color: aliceblue;
+    font-size: 14px;
+}
+
+#final_comment {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    color: aliceblue;
+    margin-top: 5%;
+}
+
+#fc_copy_button {
+    margin-top: 5%;
+}
+
+#fc_copy_clear {
+    margin-top: 5%;
+    height: 100%;
+}
+
+#table_contact {
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+}
